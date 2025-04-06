@@ -55,7 +55,7 @@ language_codes = {
 load_dotenv()
 
 # Initialize Gemini model
-GOOGLE_API_KEY = "AIzaSyASxMbbUKQpwPcOzjaU2i0w7DVizzZ94dQ"
+GOOGLE_API_KEY = "YOUR API KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-pro")
 
